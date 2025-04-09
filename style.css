@@ -8,7 +8,7 @@
     color: #eeeed9;
     text-align:center;
     text-justify: auto;
-    font-size: 10vw;
+    font-size: 2vw;
 }
 #one {
     grid-area: 1 / 1 / 3 / 9;
