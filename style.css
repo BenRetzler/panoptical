@@ -8,10 +8,10 @@
     color: #eeeed9;
 }
 #one {
-    grid-area: 1 / 1 / 1 / 9;
+    grid-area: 1 / 1 / 2 / 9;
 }
 #two {
-    grid-area: 2 / 2 / 2 / 5;
+    grid-area: 1 / 9 / 2 / 9;
 }
 #three {
     grid-area: 3 / 3 / 3 / 5;
