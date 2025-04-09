@@ -3,6 +3,10 @@
     grid-template: repeat(8, 100) / repeat(16, 1fr);
     grid-gap: 15px;
 }
+.numberUn div {
+    background-color: #515151;
+    color: #eeeed9
+}
 #one {
     grid-area: 1 / 1 / span 1 / span 16;
 }
