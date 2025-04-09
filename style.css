@@ -8,7 +8,7 @@
     color: #eeeed9;
 }
 #one {
-    grid-area: 1 / 1 / 1 / 1;
+    grid-area: 1 / 1 / 1 / 17;
 }
 #two {
     grid-area: 2 / 2 / 2 / 2;
@@ -20,5 +20,5 @@
     grid-area: 4 / 4 / 4 / 4;
 }
 #five {
-    grid-area: 5 / 5 / 5 / 5;
+    grid-area: 5 / 5 / 5 / 8;
 }
