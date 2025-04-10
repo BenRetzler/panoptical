@@ -34,9 +34,9 @@
     grid-area: 5 / 5 / 5 / 8;
 }
 @keyframes biggieCheese{
-    0%      {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:0;border: 4px #ff9999 solid;background-color:#515151;}
+    0%      {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:8%;border: 0 #ff9999 solid;background-color:#515151;}
     25%     {rotate: -30deg;}
-    50%     {/*grid-row-end: span 2; grid-column-end: span 2;*/rotate: 0deg;margin:8%;border: 0.5px #ff9999 solid;background-color:#dd8888}
+    50%     {/*grid-row-end: span 2; grid-column-end: span 2;*/rotate: 0deg;margin:0;border: 12px #ff9999 solid;background-color:#dd8888}
     75%     {rotate: 30deg;}
-    100%    {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:0;border: 4px #ff9999 solid;background-color:#515151}
+    100%    {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:8%;border: 0 #ff9999 solid;background-color:#515151}
 }
