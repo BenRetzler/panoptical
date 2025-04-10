@@ -1,7 +1,7 @@
 .numberUn {
     display: grid;
     grid-template: repeat(256, 60px) / repeat(32, 1fr);
-    grid-gap: 2.5px;
+    /*grid-gap: 2.5px;*/
     background-color: #33d4ab;
     padding:2.5%;
 }
@@ -35,7 +35,7 @@
     grid-area: 5 / 5 / 5 / 8;
 }
 @keyframes biggieCheese{
-    0%      {/*grid-row-end: span 1; grid-column-end: span 1;*//*rotate: 0deg;*/margin:0.25%;border: 4px #ff9999 solid;}
+    0%      {/*grid-row-end: span 1; grid-column-end: span 1;*//*rotate: 0deg;*/margin:0;border: 4px #ff9999 solid;}
     50%     {/*grid-row-end: span 2; grid-column-end: span 2;*//*rotate: 180deg;*/margin:8%;border: 0.5px #ff9999 solid}
-    100%    {/*grid-row-end: span 1; grid-column-end: span 1;*//*rotate: 360deg;*/margin:0.25%;border: 4px #ff9999 solid;}
+    100%    {/*grid-row-end: span 1; grid-column-end: span 1;*//*rotate: 360deg;*/margin:0;border: 4px #ff9999 solid;}
 }
