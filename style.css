@@ -10,6 +10,11 @@
     text-justify: auto;
     font-size: 2vw;
 }
+.funny {
+    background-color:#33d4ab;
+    color: #ff9999;
+    text-shadow: #515151 2px;
+}
 #one {
     grid-area: 1 / 1 / 3 / 9;
 }
