@@ -14,7 +14,7 @@
     background-color:#33d4ab;
     color: #ff9999;
     text-shadow: #515151 2px;
-    animation: biggieCheese 1s linear 0s infinite;
+    animation: biggieCheese 0.1s linear 0s infinite;
 }
 #one {
     grid-area: 1 / 1 / 3 / 9;
