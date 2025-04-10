@@ -3,6 +3,7 @@
     grid-template: repeat(256, 60px) / repeat(32, 1fr);
     grid-gap: 2.5px;
     background-color: #33d4ab;
+    padding:2.5%;
 }
 .numberUn div {
     background-color: #515151;
@@ -33,7 +34,7 @@
     grid-area: 5 / 5 / 5 / 8;
 }
 @keyframes biggieCheese{
-    0%      {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;}
-    50%     {grid-row-end: span 2; grid-column-end: span 2;rotate: 180deg;}
-    100%    {grid-row-end: span 1; grid-column-end: span 1;rotate: 360deg;}
+    0%      {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:0.25%;}
+    50%     {/*grid-row-end: span 2; grid-column-end: span 2;*/rotate: 180deg;margin:0.75%;}
+    100%    {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 360deg;margin:0.25%;}
 }
