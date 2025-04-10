@@ -2,8 +2,10 @@
     display: grid;
     grid-template: repeat(256, 75px) / repeat(16, 1fr);
     /*grid-gap: 2.5px;*/
-    background-color: #33d4ab;
+    /*background-color: #33d4ab;*/
     padding:2.5%;
+    background-color:#515151;
+    animation: biggieCheesesLittleBrotherJohnHunk 10s linear 0.1s infinite;
 }
 .numberUn div {
     background-color: #515151;
@@ -32,6 +34,11 @@
 }
 #five {
     grid-area: 5 / 5 / 5 / 8;
+}
+@keyframes biggieCheesesLittleBrotherJohnHunk{
+    0%      {background-color:#515151;}
+    50%     {background-color: #ff9999;}
+    100%    {background-color: #515151;}
 }
 @keyframes biggieCheese{
     0%      {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:8%;border: 0 #ff9999 solid;background-color:#515151; border-color:#515151;color: #515151;font-size: 2.8vw;}
