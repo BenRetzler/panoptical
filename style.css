@@ -15,7 +15,7 @@
 }
 .funny {
     text-shadow: #515151 2px;
-    animation: biggieCheese 2s linear 0s infinite;
+    animation: biggieCheese 1s linear 0s infinite;
     border: 4px #ff9999 solid;
 }
 #one {
