@@ -36,6 +36,6 @@
 }
 @keyframes biggieCheese{
     0%      {/*grid-row-end: span 1; grid-column-end: span 1;*//*rotate: 0deg;*/margin:0.25%;border: 4px #ff9999 solid;}
-    50%     {/*grid-row-end: span 2; grid-column-end: span 2;*//*rotate: 180deg;*/margin:8%;border: 2px #ff9999 dashed;}
+    50%     {/*grid-row-end: span 2; grid-column-end: span 2;*//*rotate: 180deg;*/margin:8%;border: 0.5px #ff9999 solid}
     100%    {/*grid-row-end: span 1; grid-column-end: span 1;*//*rotate: 360deg;*/margin:0.25%;border: 4px #ff9999 solid;}
 }
