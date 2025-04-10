@@ -1,6 +1,6 @@
 .numberUn {
     display: grid;
-    grid-template: repeat(256, 60px) / repeat(32, 1fr);
+    grid-template: repeat(256, 75px) / repeat(16, 1fr);
     /*grid-gap: 2.5px;*/
     background-color: #33d4ab;
     padding:2.5%;
