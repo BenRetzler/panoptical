@@ -36,9 +36,9 @@
     grid-area: 5 / 5 / 5 / 8;
 }
 @keyframes biggieCheesesLittleBrotherJohnHunk{
-    0%      {background-color:#515151;}
+    3%      {background-color:#515151;}
     50%     {background-color: #dd8888;}
-    100%    {background-color: #515151;}
+    97%    {background-color: #515151;}
 }
 @keyframes biggieCheese{
     3%      {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:8%;border: 0 #ff9999 solid;background-color:#515151; border-color:#515151;color: #515151;font-size: 2.8vw;}
