@@ -2,6 +2,7 @@
     display: grid;
     grid-template: repeat(16, 60px) / repeat(32, 1fr);
     grid-gap: 2.5px;
+    background-color: #33d4ab;
 }
 .numberUn div {
     background-color: #515151;
