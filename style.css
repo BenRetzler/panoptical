@@ -5,7 +5,7 @@
     /*background-color: #33d4ab;*/
     padding:2.5%;
     background-color:#515151;
-    animation: biggieCheesesLittleBrotherJohnHunk 10s linear 0s infinite;
+    animation: biggieCheesesLittleBrotherJohnHunk 1s linear 0s infinite;
 }
 .numberUn div {
     background-color: #515151;
@@ -17,7 +17,7 @@
 }
 .funny {
     text-shadow: #515151 2px;
-    animation: biggieCheese 10s linear 0s infinite;
+    animation: biggieCheese 1s linear 0s infinite;
     /*border: 4px #ff9999 solid;*/
 }
 #one {
