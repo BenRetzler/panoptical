@@ -1,3 +1,8 @@
+:root {
+    --loudColor: #1e90ff;
+    --fadeColor: #ffffff;
+    --animTime: 1s;
+  }
 .numberUn {
     display: grid;
     grid-template: repeat(256, 75px) / repeat(16, 1fr);
@@ -5,7 +10,7 @@
     /*background-color: #33d4ab;*/
     padding:2.5%;
     background-color:#515151;
-    animation: biggieCheesesLittleBrotherJohnHunk 1s linear 0s infinite;
+    animation: biggieCheesesLittleBrotherJohnHunk --animTime linear 0s infinite;
 }
 .numberUn div {
     background-color: #515151;
@@ -17,7 +22,7 @@
 }
 .funny {
     text-shadow: #515151 2px;
-    animation: biggieCheese 1s linear 0s infinite;
+    animation: biggieCheese --animTime linear 0s infinite;
     /*border: 4px #ff9999 solid;*/
 }
 #one {
@@ -36,16 +41,16 @@
     grid-area: 5 / 5 / 5 / 8;
 }
 @keyframes biggieCheesesLittleBrotherJohnHunk{
-    3%      {background-color:#515151;}
-    50%     {background-color: #dd8888;}
-    97%    {background-color: #515151;}
+    3%      {background-color:--fadeColor;}
+    50%     {background-color: --loudColor;}
+    97%    {background-color: --fadeColor;}
 }
 @keyframes biggieCheese{
-    3%      {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:8%;border: 0 #ff9999 solid;background-color:#515151; border-color:#515151;color: #515151;font-size: 2.8vw;}
-    25%     {rotate: -30deg;color: #ff9999;}
+    3%      {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:8%;border: 0 --loudColor solid;background-color:--fadeColor; border-color:--fadeColor;color: --fadeColor;font-size: 2.8vw;}
+    25%     {rotate: -30deg;color: --loudColor;}
     33%     {font-size: 2vw;}
-    50%     {/*grid-row-end: span 2; grid-column-end: span 2;*/rotate: 0deg;margin:0;border: 4px #ff9999 solid;background-color:#dd8888;color: #515151;}
+    50%     {/*grid-row-end: span 2; grid-column-end: span 2;*/rotate: 0deg;margin:0;border: 4px --loudColor solid;background-color:--loudColor;color: --fadeColor;}
     67%     {font-size: 2vw;}
-    75%     {rotate: 30deg;color: #ff9999;}
-    97%    {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:8%;border: 0 #ff9999 solid;background-color:#515151; border-color:#515151;color: #515151;font-size: 2.8vw;}
+    75%     {rotate: 30deg;color: --loudColor;}
+    97%    {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:8%;border: 0 --loudColor solid;background-color:--fadeColor; border-color:--fadeColor;color: --fadeColor;font-size: 2.8vw;}
 }
