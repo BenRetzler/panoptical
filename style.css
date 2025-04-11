@@ -9,19 +9,19 @@
     /*grid-gap: 2.5px;*/
     /*background-color: #33d4ab;*/
     padding:2.5%;
-    background-color:--fadeColor;
+    background-color:var(--fadeColor);
     animation: biggieCheesesLittleBrotherJohnHunk --animTime linear 0s infinite;
 }
 .numberUn div {
-    background-color: --fadeColor;
+    background-color: var(--fadeColor);
     /*color: #eeeed9;*/
-    color: --fadeColor;
+    color: var(--fadeColor);
     text-align:center;
     text-justify: auto;
     font-size: 2vw;
 }
 .funny {
-    text-shadow: --fadeColor 2px;
+    text-shadow: var(--fadeColor) 2px;
     animation: biggieCheese --animTime linear 0s infinite;
     /*border: 4px #ff9999 solid;*/
 }
@@ -41,16 +41,16 @@
     grid-area: 5 / 5 / 5 / 8;
 }
 @keyframes biggieCheesesLittleBrotherJohnHunk{
-    3%      {background-color:--fadeColor;}
-    50%     {background-color: --loudColor;}
-    97%    {background-color: --fadeColor;}
+    3%      {background-color:var(--fadeColor);}
+    50%     {background-color:var(--loudColor);}
+    97%    {background-color: var(--fadeColor);}
 }
 @keyframes biggieCheese{
-    3%      {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:8%;border: 0 --loudColor solid;background-color:--fadeColor; border-color:--fadeColor;color: --fadeColor;font-size: 2.8vw;}
-    25%     {rotate: -30deg;color: --loudColor;}
+    3%      {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:8%;border: 0var(--loudColor) solid;background-color:var(--fadeColor); border-color:var(--fadeColor);color:var(--fadeColor);font-size: 2.8vw;}
+    25%     {rotate: -30deg;color:var(--loudColor);}
     33%     {font-size: 2vw;}
-    50%     {/*grid-row-end: span 2; grid-column-end: span 2;*/rotate: 0deg;margin:0;border: 4px --loudColor solid;background-color:--loudColor;color: --fadeColor;}
+    50%     {/*grid-row-end: span 2; grid-column-end: span 2;*/rotate: 0deg;margin:0;border: 4pxvar(--loudColor) solid;background-color:--loudColor;color:var(--fadeColor);}
     67%     {font-size: 2vw;}
-    75%     {rotate: 30deg;color: --loudColor;}
-    97%    {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:8%;border: 0 --loudColor solid;background-color:--fadeColor; border-color:--fadeColor;color: --fadeColor;font-size: 2.8vw;}
+    75%     {rotate: 30deg;color:var(--loudColor);}
+    97%    {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:8%;border: 0var(--loudColor) solid;background-color:--fadeColor; border-color:--fadeColor;color:var(--fadeColor);font-size: 2.8vw;}
 }
