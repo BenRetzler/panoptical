@@ -46,11 +46,11 @@
     97%    {background-color: var(--fadeColor);}
 }
 @keyframes biggieCheese{
-    3%      {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:8%;border: 0var(--loudColor) solid;background-color:var(--fadeColor); border-color:var(--fadeColor);color:var(--fadeColor);font-size: 2.8vw;}
+    3%      {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:8%;border: 0 var(--loudColor) solid;background-color:var(--fadeColor); border-color:var(--fadeColor);color:var(--fadeColor);font-size: 2.8vw;}
     25%     {rotate: -30deg;color:var(--loudColor);}
     33%     {font-size: 2vw;}
-    50%     {/*grid-row-end: span 2; grid-column-end: span 2;*/rotate: 0deg;margin:0;border: 4pxvar(--loudColor) solid;background-color:--loudColor;color:var(--fadeColor);}
+    50%     {/*grid-row-end: span 2; grid-column-end: span 2;*/rotate: 0deg;margin:0;border: 4px var(--loudColor) solid;background-color:--loudColor;color:var(--fadeColor);}
     67%     {font-size: 2vw;}
     75%     {rotate: 30deg;color:var(--loudColor);}
-    97%    {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:8%;border: 0var(--loudColor) solid;background-color:--fadeColor; border-color:--fadeColor;color:var(--fadeColor);font-size: 2.8vw;}
+    97%    {/*grid-row-end: span 1; grid-column-end: span 1;*/rotate: 0deg;margin:8%;border: 0 var(--loudColor) solid;background-color:--fadeColor; border-color:--fadeColor;color:var(--fadeColor);font-size: 2.8vw;}
 }
