@@ -10,7 +10,7 @@
     /*background-color: #33d4ab;*/
     padding:2.5%;
     background-color:var(--fadeColor);
-    animation: biggieCheesesLittleBrotherJohnHunk --animTime linear 0s infinite;
+    animation: biggieCheesesLittleBrotherJohnHunk var(--animTime) linear 0s infinite;
 }
 .numberUn div {
     background-color: var(--fadeColor);
@@ -22,7 +22,7 @@
 }
 .funny {
     text-shadow: var(--fadeColor) 2px;
-    animation: biggieCheese --animTime linear 0s infinite;
+    animation: biggieCheese var(--animTime) linear 0s infinite;
     /*border: 4px #ff9999 solid;*/
 }
 #one {
