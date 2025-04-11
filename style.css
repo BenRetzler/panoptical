@@ -1,5 +1,6 @@
 :root {
     --loudColor: #1e90ff;
+    --loudColor2: #1d70fd;
     --fadeColor2: #ffffff;
     --fadeColor: #dddddd;
     --animTime: 1s;
@@ -43,7 +44,7 @@
 }
 @keyframes biggieCheesesLittleBrotherJohnHunk{
     3%      {background-color:var(--fadeColor2);}
-    50%     {background-color:var(--loudColor);}
+    50%     {background-color:var(--loudColor2);}
     97%    {background-color: var(--fadeColor2);}
 }
 @keyframes biggieCheese{
