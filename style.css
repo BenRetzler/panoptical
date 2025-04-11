@@ -9,19 +9,19 @@
     /*grid-gap: 2.5px;*/
     /*background-color: #33d4ab;*/
     padding:2.5%;
-    background-color:#515151;
+    background-color:--fadeColor;
     animation: biggieCheesesLittleBrotherJohnHunk --animTime linear 0s infinite;
 }
 .numberUn div {
-    background-color: #515151;
+    background-color: --fadeColor;
     /*color: #eeeed9;*/
-    color: #515151;
+    color: --fadeColor;
     text-align:center;
     text-justify: auto;
     font-size: 2vw;
 }
 .funny {
-    text-shadow: #515151 2px;
+    text-shadow: --fadeColor 2px;
     animation: biggieCheese --animTime linear 0s infinite;
     /*border: 4px #ff9999 solid;*/
 }
