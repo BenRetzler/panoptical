@@ -1,8 +1,8 @@
 :root {
-    --loudColor: #1e90ff;
-    --loudColor2: #1d70fd;
-    --fadeColor2: #ffffff;
-    --fadeColor: #fefefe;
+    --loudColor: #8300dd;
+    --loudColor2: #8322dd;
+    --fadeColor2: #ffeedc;
+    --fadeColor: #feeedc;
     --animTime: 1s;
   }
 .numberUn {
